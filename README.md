@@ -11,3 +11,6 @@ When the path is a directory, the user will be asked to confirm a directory dele
 The path name of a directory may be given with a trailing slash or not, with the slight change to behavior as noted.
 
 The -v option will display the path names as they are deleted.
+
+> [!NOTE]
+>This repository has a submodule for the include files needed to build it. You can have these pulled automatically if you add the  --recurse-submodules option to your git pull command.
