@@ -1,10 +1,12 @@
-# Elfos-del
+# Elf/OS Delete
 
 > [!NOTE]
 >This repository has a submodule for the include files needed to build it. You can have these pulled automatically if you add the  --recurse-submodules option to your git pull command.
 
-This is a delete utility for Elf/OS 4 or earlier, able to delete single files, or all the files in a directory (but nor recursively).
-
+This is a delete utility for Elf/OS 4 or earlier, able to delete single files, or all the files in a directory (but nor recursively). The usage is:
+```
+del [-v] [-d] source target
+```
 If the path names a directory, the files in that directory will be deleted, as well as the directory itself if it is then empty (it contains no dubdirectories).
 
 If the path names a file, that single file is deleted.
