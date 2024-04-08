@@ -1,7 +1,7 @@
 # Elf/OS Delete
 
 > [!NOTE]
->This repository has a submodule for the include files needed to build it. You can have these pulled automatically if you add the  --recurse-submodules option to your git clone command.
+>This repository has a submodule for the include files needed to build it. You can have these pulled automatically if you add the  --recurse option to your git clone command.
 
 This is a delete utility for Elf/OS 4 or earlier, able to delete single files, or all the files in a directory (but nor recursively). The usage is:
 ```
